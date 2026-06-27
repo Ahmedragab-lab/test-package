@@ -1,0 +1,27 @@
+{
+    "name": "ragab/test",
+    "description": "my test package",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^10|^11|^12|^13"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ragab\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ragab"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra":{
+        "laravel":{
+            "providers": [
+                "Ragab\\Test\\RagabServiceProvider"
+            ]
+        }
+    }
+}
